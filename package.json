@@ -2,7 +2,7 @@
   "name": "first_code_node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Organization-00/first_code_node.git"
   },
-  "author": "",
+  "author": "sebastian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Organization-00/first_code_node/issues"
