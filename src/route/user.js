@@ -6,7 +6,7 @@ route.get("/", getAllUsers)
 route.get("/:id", getUserById)
 route.post("/", createUser)
 route.put("/:id", updateUser)
-route.delete("/", deleteUser)
+route.delete("/:id", deleteUser);
 
 
 export default route;

@@ -39,12 +39,13 @@ export const updateUser = async (req, res) => {
 };
 
 //  Delete User
+//  Delete User
 export const deleteUser = async (req, res) => {
     const { id } = req.params;
     await prisma.user.delete({
         where: { id: parseInt(id) },
     });
-    res.status(200).send();
+    res.status(204).send();
 };
 
 // TAREA: RECREAR ESTO PERO CON OTRA COSA DISTINTA
