@@ -1,23 +1,26 @@
 {
   "name": "first_code_node",
   "version": "1.0.0",
-  "description": "",
+  "description": ":)",
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:studio": "npx prisma studio",
+    "prisma:generate": "npx prisma generate",
+    "prisma:push": "npx prisma db push"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Organization-00/first_code_node.git"
+    "url": "git+https://github.com/first_code_node.git"
   },
   "author": "sebastian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Organization-00/first_code_node/issues"
+    "url": "https://github.com/first_code_node/issues"
   },
-  "homepage": "https://github.com/Organization-00/first_code_node#readme",
+  "homepage": "https://github.com/first_code_node#readme",
   "dependencies": {
     "express": "^5.1.0",
     "prisma": "^6.18.0"

@@ -1,14 +1,12 @@
 import express from "express";
-
+import { createUser, getUserById, getAllUsers, updateUser, deleteUser } from "../controller/user.controller.js";
 const route = express.Router();
 
-route.get("/", (req , res) => {
-    res.send({
-        type:"get user",
-        status:200,
-        message:"OK"
+route.get("/", getAllUsers)
+route.get("/:id", getUserById)
+route.post("/", createUser)
+route.put("/:id", updateUser)
+route.delete("/", deleteUser)
 
-    });
-});
 
 export default route;
